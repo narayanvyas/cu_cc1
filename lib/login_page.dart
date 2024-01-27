@@ -44,6 +44,9 @@ class LoginPage extends StatelessWidget {
           padding: EdgeInsets.only(left: 30, right: 30),
           children: [
             Lottie.asset('assets/lottie/login_animation.json'),
+            Container(
+              height: 30,
+            ),
             TextField(
               controller: emailController,
               decoration: InputDecoration(
